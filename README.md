@@ -1,20 +1,15 @@
-﻿# Ken Burns Slideshow
-Instant, portable, full-screen slideshow application with the Ken Burns effect (**and more**)!
+﻿# Ken Burns Slideshow Touch Version
+Instant, portable, full-screen slideshow application with the Ken Burns effect (**and more**)! Touch Version.
 ## Motivation
 This idea came to me while watching a slideshow on iPad. How nice would it be if we can create instant slideshows on a Windows machine with only a single executable and a folder of images.
 
-此程序可用Ken Burns等三种效果播放文件夹中的图像，Ken Burns效果可参照iPad照片图库。
+此程序可用Ken Burns等三种效果播放文件夹中的图像，Ken Burns效果可参照iPad照片图库。这个是触摸屏版本，原始版本（不支持触摸屏）在这里：https://github.com/changbowen/Ken-Burns-Slideshow/
 
-Always get the latest development build from [here](https://github.com/changbowen/Ken-Burns-Slideshow/raw/master/bin/Release/Ken%20Burns%20Slideshow.exe).
+# Always get the latest development build from [here](https://github.com/changbowen/Ken-Burns-Slideshow/raw/master/bin/Release/Ken%20Burns%20Slideshow.exe).
 
-最新开发版[传送门](https://github.com/changbowen/Ken-Burns-Slideshow/raw/master/bin/Release/Ken%20Burns%20Slideshow.exe)。
+# 最新开发版[传送门](https://github.com/changbowen/Ken-Burns-Slideshow/raw/master/bin/Release/Ken%20Burns%20Slideshow.exe)。
 
-If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.svg)](https://www.paypal.me/BowenChang) or [支付宝](https://user-images.githubusercontent.com/15975872/29361889-175fef58-82bc-11e7-9e3b-ed3c748456b8.png)
-
-------------
-### I want to rewrite this thing with C# in the future when I have more free time (when will that be...). The current VB project was written a long time ago and it consists of poorly organized codes with little descriptive comments that makes it so hard to continue to work on...
-### 我有计划想用C#重写这个程序（当我有时间的时候。。）。现在的VB代码是很久之前写的，很乱并且缺少说明，很难继续改良。。
-------------
+# If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.svg)](https://www.paypal.me/BowenChang) or [支付宝](https://user-images.githubusercontent.com/15975872/29361889-175fef58-82bc-11e7-9e3b-ed3c748456b8.png)
 
 ## Preview
 - <img src="http://i.imgur.com/nbznvOh.gif" title="Ken Burns effect preview"/>
@@ -22,8 +17,6 @@ If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.sv
 - <img src="http://i.imgur.com/d7Ap7t5.gif" title="Throw effect preview"/>
 - <img src="http://i.imgur.com/5O30vFL.jpg" width="600" title="Supports date & custom text display"/>
 - <img src="http://i.imgur.com/dNIf5mC.jpg" width="600" title="Detailed customizations"/>
-- [Youtube video](https://youtu.be/ch2UjN9nwIc)
-- [Youku video](http://v.youku.com/v_show/id_XMTQ5NTM0NTAxMg==.html) 
 
 ## Language &amp; Requirement
 - WPF application written in VB.net
@@ -87,86 +80,5 @@ If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.sv
 - 文件名中包含URI转义符的音频文件（如：This%20is%20a%20song%28I%20am%20kidding%29.mp3）不会被识别。
 
 ## Updates
-- 2017-04-23
-  - Add bulk details edit in Edit Mode by (selecting multiple images first).
-  - Fix initialization logic error.
-  - Update author info to compiled executable.
-  - Add minimum configuration file version verification.
-- 2017-01-14
-  - Added fading to desktop animation.
-  - Added option to jump to the next music item.
-  - Other minor code changes.
-- 2017-01-10
-  - Added option to avoid showing control window each time the slideshow starts.
-  - Added fade-in to the exit prompt.
-- 2017-01-07
-  - Added option to exclude sub-folders.
-  - Minor changes to Options window to fit localizations.
-- 2016-10-07
-  - Added more text customizations.
-- 2016-08-17
-  - Added support for reading orientation information from EXIF and rotate image accordingly. Only rotation support is added. EXIF-flipped images (orientation value 2, 4, 5, 7) are less common.
-  - Hold returning to desktop during exit by requiring pressing ESC again. (Like in PowerPoint.)
-- 2016-08-13
-  - Added option to randomly show images.
-  - Added option to randomly play audio.
-  - Changed some tip texts.
-  - Fixed displayed text / date may disappear in the second loop.
-- 2016-03-11
-  - Added custom text display.
-  - Added version verification.
-  - Added output preview in Edit Slide window.
-  - Improved text / date display loop.
-  - Option to add a shortcut menu entry for folders, from where the show can be launched directly.
-  - Added fade out while application is closing.
-- 2016-03-09
-  - Fixed Random transition not working properly.
-  - Minor changes on how date animation is handled.
-- 2016-03-04
-  - Added control window from where pause, restart and other functions can be accessed.
-  - Added simplified Chinese language.
-  - Minor changes.
-- 2016-03-01
-  - Added Load Mode option for better performance. Improved transition framerate under All-at-Once mode.
-- 2016-02-26
-  - **New transition animation "Throw" added!**
-  - Changed how certain animations are handled.
-  - Added a "Random" transition which randomly use other existing
-transitions.
-  - Changes in UI and functionality.
-- 2016-02-19
-  - Added pause and restart control.
-  - Added Edit Mode where options for each individual slide can be edited.
-  - Added title slide option in Edit Mode.
-- 2016-01-20
-  - Added more custom options.
-- 2016-01-18
-  - Fixed breathing not being animated correctly when Vertical Lock is off.
-- 2016-01-16
-  - **Brand-new transition animation "Breath" added!**
-  - Fixed fadeout setting not getting saved.
-- 2016-01-15
-  - Fixed crash when loading the first image fails.
-  - Added icon which doubled the footprint of the executable.
-- 2016-01-13
-  - Added complete UI for modification of config.xml file. Removed config.xml from release as it is no longer required for program to start correctly.
-  - Added some customizable parameters.
-  - Other non-performance related tweaks.
-- 2016-01-08
-  - Fixed animation not being displayed correctly when last few dates share the same month value.
-  - Fixed animation not being displayed correctly when vertical lock is on.
-- 2016-01-06
-  - Now mouse cursor will be hidden while slideshow is playing.
-- 2015-12-08
-  - Changed bitmap scaling option to high quality.
-- 2015-12-07
-  - Fixed images not being displayed fully.
-  - Added customizable option to fadeout for each image. Disabling fadeout might slightly improve performance.
-  - Added runtime options dialog what supports changing several settings in config.xml at runtime. The dialog is called by pressing F12.
-  - Other minor fixes.
-- 2015-12-06
-  - Added customizable option to show lower resolution for large images to improve performance.
-  - Added customizable option to lock movement direction to "down only" for images with height larger than screen height * 1.5. This setting suits better for portraits that usually have faces at the upper part of the image.
-  - Added customizable option to only show the upper / lower part (depending on movement direction) for images with height larger than screen height * 1.5. This is to avoid image moving too fast thus less elegant.
-  - Added customizable option to only show the left / right part (depending on movement direction) for images with width larger than screen width * 1.5. This is to avoid image moving too fast thus less elegant.
-  - Improved error handling when dealing with corruptions. Instead of showing error prompt and exit, program will now replace the problematic image with a black screen as a placeholder in case dates are being displayed.
+- 2019-06-12
+  - First touch version.
