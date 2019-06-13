@@ -145,7 +145,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Label x:Name="PathText" Grid.ColumnSpan="4" Content="Path" HorizontalAlignment="Left" Height="23" Margin="10,95,0,0" VerticalAlignment="Top" Width="623" Foreground="#FFFFFFFD"/>
+        <Label x:Name="PathText" Grid.ColumnSpan="4" Content="Path" HorizontalAlignment="Left" Height="23" Margin="10,95,0,0" VerticalAlignment="Top" Width="623" Foreground="#FFFFFFFD" Visibility="Hidden"/>
 
         <!-- 关闭屏幕按钮
         <Button x:Name="Btn_ScrOff"  Grid.Column="3" Click="BtnScrOff" >

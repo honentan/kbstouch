@@ -2,8 +2,10 @@
 Instant, portable, full-screen slideshow application with the Ken Burns effect (**and more**)! Touch Version.
 ## Motivation
 This idea came to me while watching a slideshow on iPad. How nice would it be if we can create instant slideshows on a Windows machine with only a single executable and a folder of images.
+From this original version (does not support touch screen): https://github.com/changbowen/Ken-Burns-Slideshow/ Modified touch version.
 
-此程序可用Ken Burns等三种效果播放文件夹中的图像，Ken Burns效果可参照iPad照片图库。这个是触摸屏版本，原始版本（不支持触摸屏）在这里：https://github.com/changbowen/Ken-Burns-Slideshow/
+此程序可用Ken Burns等三种效果播放文件夹中的图像，Ken Burns效果可参照iPad照片图库。
+来源于这个原始版本（不支持触摸屏）：https://github.com/changbowen/Ken-Burns-Slideshow/ 修改的触摸屏版本。
 
 Always get the latest development build from [here](https://github.com/honentan/kbstouch/blob/master/bin/Release/Ken%20Burns%20Slideshow%20Touch.zip).
 
@@ -15,8 +17,9 @@ If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.sv
 - <img src="http://i.imgur.com/nbznvOh.gif" title="Ken Burns effect preview"/>
 - <img src="http://i.imgur.com/A97UmCm.gif" title="Breath effect preview"/>
 - <img src="http://i.imgur.com/d7Ap7t5.gif" title="Throw effect preview"/>
-- <img src="http://i.imgur.com/5O30vFL.jpg" width="600" title="Supports date & custom text display"/>
-- <img src="http://i.imgur.com/dNIf5mC.jpg" width="600" title="Detailed customizations"/>
+- <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/controlpad.png" width="600" title="Control Pad(touch/click to display)"/>
+- <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/clock.png" width="600" title="Clock & Weather"/>
+- <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/option.png" width="600" title="New option for break"/>
 
 ## Language &amp; Requirement
 - WPF application written in VB.net
@@ -32,6 +35,11 @@ If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.sv
 - Support launching slideshow directly from a folder containing images and audio files.
 - Support EXIF rotation.
 - Simplified Chinese language support.
+- New in touch version
+   - Support touch screen, touch/click to display control pad (with four buttons: settings, clock, mute, exit);
+   - Added clock & weather, multiple styles of graphic display (restart application after modification);
+   - Set the start and end time to switch to the clock & weather;
+   - The file path is displayed by default and double-clicked to cancel.
 
 ## 功能特性
 - 首次使用需要设置图片文件夹和音乐文件夹（可选）。
@@ -42,7 +50,11 @@ If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.sv
 - 可关联Windows资源管理器右键菜单，右键点击文件夹直接播放。
 - 支持EXIF旋转。
 - 支持简体中文语言。
-- 支持触屏：1、单机出现控制按钮；2、双击不显示图片路径。
+- 触屏版新增功能
+  - 支持触屏，触摸/点击出现控制板（设置、时钟、静音、退出四个按钮）；
+  - 新增时钟和天气，多种风格图形显示（修改后需重启应用）；
+  - 设置切换为时钟显示的起止时间；
+  - 默认显示文件路径，双击取消。
 
 ## Note
 - Press **ESC** to fade out and quit.
