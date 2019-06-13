@@ -2,9 +2,11 @@
 Instant, portable, full-screen slideshow application with the Ken Burns effect (**and more**)! Touch Version.
 ## Motivation
 This idea came to me while watching a slideshow on iPad. How nice would it be if we can create instant slideshows on a Windows machine with only a single executable and a folder of images.
+
 From this original version (does not support touch screen): https://github.com/changbowen/Ken-Burns-Slideshow/ Modified touch version.
 
 此程序可用Ken Burns等三种效果播放文件夹中的图像，Ken Burns效果可参照iPad照片图库。
+
 来源于这个原始版本（不支持触摸屏）：https://github.com/changbowen/Ken-Burns-Slideshow/ 修改的触摸屏版本。
 
 Always get the latest development build from [here](https://github.com/honentan/kbstouch/blob/master/bin/Release/Ken%20Burns%20Slideshow%20Touch.zip).
@@ -17,7 +19,8 @@ If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.sv
 - <img src="http://i.imgur.com/nbznvOh.gif" title="Ken Burns effect preview"/>
 - <img src="http://i.imgur.com/A97UmCm.gif" title="Breath effect preview"/>
 - <img src="http://i.imgur.com/d7Ap7t5.gif" title="Throw effect preview"/>
-- <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/controlpad.png" width="600" title="Control Pad(touch/click to display)"/>
+- <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/path.jpg" width="600" title="Show path is default, double-clicke to cancel"/>
+- <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/controlPad.png" width="600" title="Control Pad(touch/click to display)"/>
 - <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/clock.png" width="600" title="Clock & Weather"/>
 - <img src="https://github.com/honentan/kbstouch/blob/master/images/preview/option.png" width="600" title="New option for break"/>
 
