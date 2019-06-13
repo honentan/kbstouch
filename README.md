@@ -5,6 +5,12 @@ This idea came to me while watching a slideshow on iPad. How nice would it be if
 
 此程序可用Ken Burns等三种效果播放文件夹中的图像，Ken Burns效果可参照iPad照片图库。这个是触摸屏版本，原始版本（不支持触摸屏）在这里：https://github.com/changbowen/Ken-Burns-Slideshow/
 
+Always get the latest development build from [here](https://github.com/honentan/kbstouch/blob/master/bin/Release/Ken%20Burns%20Slideshow%20Touch.zip).
+
+最新开发版[传送门](https://github.com/honentan/kbstouch/blob/master/bin/Release/Ken%20Burns%20Slideshow%20Touch.zip)。
+
+If you really like it [![PayPal](https://img.shields.io/badge/%24-PayPal-blue.svg)](https://www.paypal.me/honentan) or [支付宝](https://github.com/honentan/kbstouch/blob/master/images/preview/alipay.jpg) or [微信](https://github.com/honentan/kbstouch/blob/master/images/preview/wechat.jpg)
+
 ## Preview
 - <img src="http://i.imgur.com/nbznvOh.gif" title="Ken Burns effect preview"/>
 - <img src="http://i.imgur.com/A97UmCm.gif" title="Breath effect preview"/>
